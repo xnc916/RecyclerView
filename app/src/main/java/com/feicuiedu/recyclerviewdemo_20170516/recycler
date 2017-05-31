@@ -1,0 +1,24 @@
+RecyclerView的使用
+基本的使用、设置监听处理、拖动和滑动删除
+item侧滑的菜单
+
+1. 基本使用：
+    1. 依赖的添加
+    2. 布局使用
+    3. 处理：设置布局管理器、适配器的创建、监听的处理等
+
+下午：
+1. 拖动和滑动删除的效果
+2. 瀑布流的效果
+3. ListView的item的侧滑展示：第三方开源库：AndroidSwipeLayout
+    1. 依赖添加:compile "com.daimajia.swipelayout:library:1.2.0@aar"
+    2. 给ListView做一个侧滑的处理：BaseSwipeAdapter
+
+总结:
+1. RecyclerView的使用：布局管理器的设置，适配器的创建，item的监听处理(接口回调的方式)
+2. 拖动和滑动的处理：借助ItemTouchHelper来完成的。
+3. AndroidSwipeLayout第三方库：ListView的item侧滑的效果
+
+EShop电商的项目：
+只讲一阶段：功能没有完全实现。
+封装和自定义。
